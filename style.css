@@ -12,7 +12,7 @@ p{
 .orange{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 0px;
 }
@@ -39,4 +39,32 @@ section{
     background-image: url(developer-portfolio-master/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.Experience-area{
+    background-image: url(developer-portfolio-master/images/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-top: 50px    ;
+    background-position: left;
+}
+.Experiences-category{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;   
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+#Exp-id{
+    border-left: solid 8px;
+    border-image: linear-gradient(orangered, orange);
+    border-image-slice: 1;
+}
+#Exp-id-2{
+    border-left: solid 8px;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center ;
 }
